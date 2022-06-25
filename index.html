@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+img{
+  padding: 0.25rem;
+  /* width: 30%; */
+  /* height: auto24; */
+}
+</style>
+<body">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Functions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Name Card</a>
+            <a class="dropdown-item" href="#">Global Time</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Country</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container-fluid mt-10">
+    <h1 class="text-center">Wonderful Oceans And Life Within</h1>
+    <p class="text-center">The oceans cover more than 70 per cent of the Earth’s surface and the majority of life on Earth is aquatic.</p>
+  
+    <div class="d-flex flex-row justify-content-center">
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1580019542155-247062e19ce4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1596414086775-3e321ab08f36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1591025207163-942350e47db2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572720350370-8080412fc75b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1572713629470-3e9f5d4fdf4c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhJTIwbGlmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1656056773891-4888554bdd59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1656056773891-4888554bdd59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1570368294249-55d0da1c69fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHNlYSUyMGxpZmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+      </div>
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1648737119359-510d4f551382?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1648737119359-510d4f551382?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=805">
+      </div>
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1656105348065-589c3e10d6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1654243009932-941ca4a89c46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+      </div>
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1642698639930-f8cff499ccd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      </div>
+    </div>
+  </div>"
+</body>
+
+</html>
